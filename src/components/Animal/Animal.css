@@ -1,0 +1,25 @@
+/* Change the active pagination color to green */
+.ant-pagination-item-active {
+    border-color: limegreen !important;
+}
+
+.ant-pagination-item-active a {
+    color: limegreen !important;
+}
+
+/* Optional: Change the hover color to green as well */
+.ant-pagination-item:hover {
+    border-color: limegreen !important;
+}
+
+.ant-pagination-item:hover a {
+    color: limegreen !important;
+}
+
+/* Change the color of the table column titles to green */
+.ant-table-thead > tr > th {
+    background-color: #EBF6EB !important; /* Ensure the background is white if needed */
+    color: limegreen !important; /* Set the title color to limegreen */
+    border-color: limegreen !important; /* Set the border color to limegreen */
+    font-weight: 650 !important; /* Make the text bold */
+}

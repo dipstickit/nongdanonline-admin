@@ -1,0 +1,66 @@
+.custom-table .ant-table-thead>tr>th {
+  background-color: #ebf6eb !important;
+  color: #2fb95d !important;
+  font-weight: bold;
+  font-size: large;
+}
+
+.selectBlogTable {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.addModalBlog {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.addModalBlog button {
+  background-color: #2fb95d;
+  height: 40px;
+  width: 120px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.addModalBlog button:hover {
+  background-color: #258947 !important;
+}
+
+.addFormButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.addFormButton button {
+  background-color: #2fb95d;
+  height: 40px;
+  width: 120px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.addButton:hover {
+  background-color: #258947 !important;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: left;
+}
+
+td>div>p>img {
+  width: 150px;
+}
